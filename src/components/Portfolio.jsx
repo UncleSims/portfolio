@@ -23,9 +23,9 @@ const Portfolio = () => {
   return (
     <section
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800  text-white md:h-screen flex justify-center items-center"
+      className="bg-gradient-to-b from-black to-gray-800  text-white h-1/12 md:h-screen flex justify-center items-center"
     >
-      <section className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <section className="max-w-screen-lg p-4 mx-auto flex flex-col justify-srart lg:justify-start w-full h-full">
         <div className="pb-8">
           <span className="text-3xl font-bold border-b-4 border-gray-500">
             Portfolio
@@ -34,7 +34,7 @@ const Portfolio = () => {
             Here are a few of my works, feel free to check them out.
           </p>
         </div>
-        <div className="h-2/5 grid sm:grid-cols-2 md:grid-cols-2 gap-8 cntent-center px-12  sm:px-0">
+        <div className="h-1/5 grid sm:grid-cols-2 md:grid-cols-2 gap-8 cntent-center px-12  sm:px-0">
           {portfolios.map(({ id, src, href, code }) => (
             <div
               key={id}
@@ -47,7 +47,7 @@ const Portfolio = () => {
                 alt=" key={id}"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button className="w-1/2 px-6 lg:py-3 m-4 duration-200 hover:scale-105">
                   <a href={href} target="_blank">
                     Demo
                   </a>
