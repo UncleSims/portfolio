@@ -32,7 +32,7 @@ const Home = () => {
       className="h-screen w-full bg-gradient-to-b from-black to-gray-800"
       // onClick={speak()}
     >
-      <section className="max-w-screen-lg lg:mx-auto flex flex-col md:items-center justify-center h-full px-4 md:flex-row">
+      <section className="max-w-screen-lg  flex flex-col justify-center h-full px-4 md:flex-row md:items-center lg:mx-auto">
         <div
           className="flex flex-row justify-center mt-10 md:ml-16 lg:ml-16"
           data-aos="fade-right"

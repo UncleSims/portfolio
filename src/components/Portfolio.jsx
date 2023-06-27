@@ -23,31 +23,31 @@ const Portfolio = () => {
   return (
     <section
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800  text-white h-1/12 md:h-screen flex justify-center items-center"
+      className="bg-gradient-to-b from-black to-gray-800 h-screen text-white "
     >
-      <section className="max-w-screen-lg p-4 mx-auto flex flex-col justify-srart lg:justify-start w-full h-full">
-        <div className="pb-8">
-          <span className="text-3xl font-bold border-b-4 border-gray-500">
+      <div className="flex flex-col w-screen h-full justify-center">
+        <div className="mx-10 pb-5 md:pb-8 lg:ml-44">
+          <span className="text-xl md:text-3xl font-bold border-b-4 border-gray-500">
             Portfolio
           </span>
-          <p className="pt-6 text-gray-400">
+          <p className="pt-2.5 text-sm md:text-lg md:pt-6  text-gray-400">
             Here are a few of my works, feel free to check them out.
           </p>
         </div>
-        <div className="h-1/5 grid sm:grid-cols-2 md:grid-cols-2 gap-8 cntent-center px-12  sm:px-0">
+        <div className=" h-[55%] w-screen flex flex-col items-center gap-y-4 sm:h-2/4 sm:flex sm:flex-row sm:justify-center sm:gap-x-6">
           {portfolios.map(({ id, src, href, code }) => (
             <div
               key={id}
-              className="shadow-md shadow-gray-600 rounded-lg"
+              className="w-9/12 sm:w-[35%] h-1/2 sm:h-full shadow-md shadow-gray-600 rounded-lg"
               data-aos="zoom-in"
             >
               <img
-                className="rounded-md duration-200 hover:scale-105"
+                className="h-[75%] w-full object-cover rounded-md duration-200 hover:scale-105"
                 src={src}
                 alt=" key={id}"
               />
-              <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 lg:py-3 m-4 duration-200 hover:scale-105">
+              <div className="h-[25%] flex items-center justify-center">
+                <button className="w-1/2 sm:px-6 sm:py-3 m-4 duration-200 hover:scale-105">
                   <a href={href} target="_blank">
                     Demo
                   </a>
@@ -61,7 +61,7 @@ const Portfolio = () => {
             </div>
           ))}
         </div>
-      </section>
+      </div>
     </section>
   );
 };
