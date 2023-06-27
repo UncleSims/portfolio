@@ -34,7 +34,6 @@ const Portfolio = () => {
             Here are a few of my works, feel free to check them out.
           </p>
         </div>
-
         <div className="h-2/5 grid sm:grid-cols-2 md:grid-cols-2 gap-8 cntent-center px-12  sm:px-0">
           {portfolios.map(({ id, src, href, code }) => (
             <div
