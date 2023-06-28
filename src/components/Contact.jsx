@@ -7,27 +7,36 @@ const Contact = () => {
     >
       <section className="flex flex-col px-4 pt-16 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8" data-aos="zoom-out-up">
-          <span className="text-3xl font-bold inline border-b-4 border-gray-500 ">
+          <span className="text-xl md:text-3xl font-bold inline border-b-4 border-gray-500 ">
             Contact
           </span>
-          <p className="py-4 font-bold text-gray-200">Let's Connect!</p>
-          <p className="text-gray-200 text-sm">
+          <p className="text-base md:text-lg py-4 font-bold text-gray-400">
+            Let's Connect!
+          </p>
+          <p className="text-gray-400 text-sm">
             You can email me at:{" "}
             <a
-              className="text-gray-200 text-sm"
+              className="text-gray-100 text-sm"
               href="mailto:iamsimmyyodel@gmail.com"
               target="_blank"
             >
               iamsimmyyodel@gmail.com
             </a>{" "}
           </p>
-          <p className="pt-3 text-gray-200 text-sm">
+          <p className="pt-3 text-gray-400 text-sm">
             Or send me a quick message here:
           </p>
         </div>
 
-        <div className="flex justify-center items-center" data-aos="zoom-out-up">
-          <form action="" className="flex flex-col w-full md:w-1/2">
+        <div
+          className="flex justify-center items-center"
+          data-aos="zoom-out-up"
+        >
+          <form
+            action="https://getform.io/f/a329ab7f-ca1e-4839-b23b-f5fa986075e7"
+            method="POST"
+            className="flex flex-col w-full md:w-1/2"
+          >
             <input
               type="text"
               name="name"
@@ -51,7 +60,6 @@ const Contact = () => {
             </button>
           </form>
         </div>
-        {/* <MobileSocials/> */}
       </section>
     </section>
   );

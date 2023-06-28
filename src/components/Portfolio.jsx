@@ -26,11 +26,11 @@ const Portfolio = () => {
       className="bg-gradient-to-b from-black to-gray-800 h-screen text-white "
     >
       <div className="flex flex-col w-screen h-full justify-center">
-        <div className="mx-10 pb-5 md:pb-8 lg:ml-44">
+        <div className="mx-5 pb-5 md:pb-8 lg:ml-44">
           <span className="text-xl md:text-3xl font-bold border-b-4 border-gray-500">
             Portfolio
           </span>
-          <p className="pt-2.5 text-sm md:text-lg md:pt-6  text-gray-400">
+          <p className="pt-2.5 text-base md:text-lg md:pt-6  text-gray-400">
             Here are a few of my works, feel free to check them out.
           </p>
         </div>

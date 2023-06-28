@@ -50,22 +50,22 @@ const Experience = () => {
     >
       <section className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-screen text-white">
         <div className="mt-4">
-          <span className="text-3xl font-bold border-b-4 border-gray-500 p-2 inline">
+          <span className="text-xl md:text-3xl font-bold border-b-4 border-gray-500 inline">
             Experience
-          </span>
-          <p className="pt-6">
+          </span> 
+          <p className="text-base md:text-lg pt-6 text-gray-400">
             These are some of the technologies i have worked with
           </p>
         </div>
 
-        <section className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:PX-0 ">
+        <section className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-6 px-12 sm:px-0 ">
           {skills.map(({ id, src, title, style }) => (
             <div
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
               data-aos="zoom-in"
             >
-              <img src={src} className="w-20 mx-auto" alt="HTML" />
+              <img src={src} className="w-16 md:w-20 h-12 md:h-[120px] mx-auto" alt="HTML" />
               <p className="mt-4">{title}</p>
             </div>
           ))}

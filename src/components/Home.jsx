@@ -32,13 +32,13 @@ const Home = () => {
       className="h-screen w-full bg-gradient-to-b from-black to-gray-800"
       // onClick={speak()}
     >
-      <section className="max-w-screen-lg  flex flex-col justify-center h-full px-4 md:flex-row md:items-center lg:mx-auto">
+      <section className="max-w-screen-lg  flex flex-col justify-around md:justify-center h-full px-4 md:flex-row md:items-center lg:mx-auto">
         <div
           className="flex flex-row justify-center mt-10 md:ml-16 lg:ml-16"
           data-aos="fade-right"
         >
           <div className="flex flex-col justify-center items-start">
-            <span className="block text-gray-100 py-4 ">Hi there,</span>
+            <span className="block text-gray-100 py-4 text-base ">Hi there,</span>
             <Typed
               className=" flex items-center md:text-4xl text-3xl font-bold text-[#e0a80d]"
               strings={["I am Simmy,", "A Front-End Web Developer."]}
@@ -47,11 +47,11 @@ const Home = () => {
               loop
             />
 
-            <p className="text-gray-400 my-6 max-w-md">
+            <p className="text-base text-gray-400 my-6 max-w-md">
               I love to work on the front-end of web applications using
               Technologies like React, TailwindCSS amongst others.
             </p>
-            <p className="text-gray-400 max-w-md">
+            <p className="text-gray-400 max-w-md text-base">
               Please take a look around, see what i have been working on, and
               lets see what we can build together.
             </p>
