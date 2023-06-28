@@ -27,17 +27,20 @@ const About = () => {
             className="text-base md:text-lg mt-4 text-gray-400"
             data-aos="fade-up"
           >
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam in
-            velit quae modi optio, nesciunt corporis? Officia tempore deserunt
-            harum eligendi numquam necessitatibus, repudiandae expedita quaerat
-            dolorum consectetur laborum? Cupiditate.
+            I am currently based in Abuja, Nigeria and working remotely. My
+            approach to Front-end development is driven by a deep interest in
+            problem-solving and research having transitioned into tech from Law.
+            I believe in the effectiveness of collaboration in bringing ideas to
+            life. I am consistently seeking opportunities and platforms to
+            learn, grow and harness my skills to aid improvement, both
+            personally and professionally.
           </p>
           <br />
           <p className="text-base md:text-lg text-gray-400" data-aos="fade-up">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
-            architecto est suscipit tenetur a temporibus voluptate totam labore
-            maiores vero possimus deserunt, iste alias quos qui nemo excepturi
-            sed. Laborum?
+            When I am not writing code, you can often find me at the gym in the
+            evenings or catch me seeing my favourite shows on Netflix. I do my
+            best to make out time to spend with my family and loved ones because
+            that is equally as important.
           </p>
         </div>
       </div>
