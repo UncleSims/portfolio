@@ -31,7 +31,7 @@ const Portfolio = () => {
             Portfolio
           </span>
           <p className="pt-2.5 text-base md:text-lg md:pt-6  text-gray-400">
-            Here are a few of my works, feel free to check them out.
+            Here are a couple of my works, feel free to check them out.
           </p>
         </div>
         <div className=" h-[55%] w-screen flex flex-col items-center gap-y-4 sm:h-2/4 sm:flex sm:flex-row sm:justify-center sm:gap-x-6">
