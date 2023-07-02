@@ -2,7 +2,6 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 const SocialLinks = () => {
-  
   return (
     <section className="hidden lg:flex flex-col lg:transition duration-150 ease-in top-[35%] left-0 fixed">
       <ul>
@@ -36,7 +35,7 @@ const SocialLinks = () => {
         <li className="flex justify-between items-center rounded-br-md w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md bg-gray-900">
           <a
             className="flex justify-between items-center w-full text-white "
-            href="/AyodeleSimiloluwa_resume.pdf"
+            href="/AyodeleSimiloluwa.pdf"
             download="Ayodele Similoluwa"
             target="_blank"
           >

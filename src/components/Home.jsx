@@ -67,7 +67,7 @@ const Home = () => {
               </button>
               <button className="md:hidden flex items-center gap-x-2 rounded-3xl border border-white text-white  w-fit px-6 py-3 my-2 hover:scale-105 duration-200">
                 <a
-                  href="/AyodeleSimiloluwa_resume.pdf"
+                  href="/AyodeleSimiloluwa.pdf"
                   download="Ayodele Similoluwa"
                   target="_blank"
                   className="font-bold"
