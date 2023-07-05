@@ -16,7 +16,7 @@ const MobileSocials = () => {
             </a>
           </li>
           <li className="">
-            <a className="" href="" target="_blank">
+            <a className="https://github.com/UncleSims" href="" target="_blank">
               <FaGithub size={30} />
             </a>
           </li>

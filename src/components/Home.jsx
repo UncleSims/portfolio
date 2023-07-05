@@ -11,7 +11,7 @@ const Home = () => {
 
   const speak = () => {
     const synth = window.speechSynthesis;
-    const text = "Hi there, I am Similoluwa Ayodele, A font-end web developer";
+    const text = "Hi there, I am Similoluwa Ayodele, A font-end web engineer";
     const value = new SpeechSynthesisUtterance(text);
     value.rate = 2;
 
@@ -41,7 +41,7 @@ const Home = () => {
             <span className="block text-gray-100 py-4 text-base ">Hi there,</span>
             <Typed
               className=" flex items-center md:text-4xl text-3xl font-bold text-[#e0a80d]"
-              strings={["I am Simmy,", "A Front-End Web Developer."]}
+              strings={["I am Simmy,", "A Front-End Web Engineer."]}
               typeSpeed={120}
               backSpeed={160}
               loop

@@ -17,7 +17,7 @@ const SocialLinks = () => {
         <li className="flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md bg-gray-900">
           <a
             className="flex justify-between items-center w-full rounded-tr-md text-white "
-            href=""
+            href="https://github.com/UncleSims"
             target="_blank"
           >
             Github <FaGithub size={30} />
