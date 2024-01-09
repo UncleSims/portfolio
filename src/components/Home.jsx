@@ -29,16 +29,18 @@ const Home = () => {
   return (
     <main
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black to-gray-800"
+      className="w-full bg-gradient-to-b from-black to-gray-800"
       // onClick={speak()}
     >
-      <section className="max-w-screen-lg  flex flex-col justify-around md:justify-center h-full px-4 md:flex-row md:items-center lg:mx-auto">
+      <section className="max-w-screen-lg py-[100px] flex flex-col justify-around md:justify-center px-4 md:flex-row md:items-center lg:mx-auto">
         <div
           className="flex flex-row justify-center mt-10 md:ml-16 lg:ml-16"
           data-aos="fade-right"
         >
           <div className="flex flex-col justify-center items-start">
-            <span className="block text-gray-100 py-4 text-base ">Hi there,</span>
+            <span className="block text-gray-100 py-4 text-base ">
+              Hi there,
+            </span>
             <Typed
               className=" flex items-center md:text-4xl text-3xl font-bold text-[#e0a80d]"
               strings={["I am Simmy,", "A Front-End Web Engineer."]}

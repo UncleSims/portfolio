@@ -4,9 +4,9 @@ const About = () => {
   return (
     <section
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white "
+      className="w-full min-h-screen bg-gradient-to-b from-gray-800 to-black text-white "
     >
-      <div className="max-w-screen-lg p-4 lg:mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg py-[150px] lg:mx-auto flex flex-col justify-center w-full h-full">
         <div className="w-full mb-6">
           <div className="w-full pb-4 ">
             <span className="text-xl md:text-3xl font-bold inline border-b-4 border-gray-500">
