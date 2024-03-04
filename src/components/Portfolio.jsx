@@ -2,6 +2,8 @@ import Trailerpoint from "../assets/portfolio/Trailerpoint.png";
 import FitnessJunkie from "../assets/portfolio/FitnessJunkie.png";
 import Birdiebox from "../assets/portfolio/birdiebox.jpeg";
 import Konnected from "../assets/portfolio/konnected.jpeg";
+import EniolaPortfolio from "../assets/portfolio/eniola-portfolio.jpeg";
+import LolaPortfolio from "../assets/portfolio/lola-portfolio.jpeg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -17,12 +19,22 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      src: LolaPortfolio,
+      href: "#https://lolataiwo.live/",
+    },
+    {
+      id: 4,
+      src: EniolaPortfolio,
+      href: "https://www.eniolabiola.com/",
+    },
+    {
+      id: 5,
       src: Trailerpoint,
       href: "https://trailerpoint.netlify.app",
       code: "https://github.com/UncleSims/TrailerPoint",
     },
     {
-      id: 4,
+      id: 6,
       src: FitnessJunkie,
       href: "https://fitnessjunkie.netlify.app/",
       code: "https://github.com/UncleSims/gym-project",
