@@ -20,7 +20,7 @@ const Portfolio = () => {
     {
       id: 3,
       src: LolaPortfolio,
-      href: "#https://lolataiwo.live/",
+      href: "https://lolataiwo.live/",
     },
     {
       id: 4,
