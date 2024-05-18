@@ -4,7 +4,7 @@ import Birdiebox from "../assets/portfolio/birdiebox.jpeg";
 import Konnected from "../assets/portfolio/konnected.jpeg";
 import EniolaPortfolio from "../assets/portfolio/eniola-portfolio.jpeg";
 import LolaPortfolio from "../assets/portfolio/lola-portfolio.jpeg";
-import PropertyInvest from "../assets/portfolio/property-invest.png";
+import PropertyInvest from "../assets/portfolio/property-invest.jpeg";
 
 const Portfolio = () => {
   const portfolios = [
