@@ -5,42 +5,49 @@ import Konnected from "../assets/portfolio/konnected.jpeg";
 import EniolaPortfolio from "../assets/portfolio/eniola-portfolio.jpeg";
 import LolaPortfolio from "../assets/portfolio/lola-portfolio.jpeg";
 import PropertyInvest from "../assets/portfolio/property-invest.jpeg";
+import Kiddiebox from "../assets/portfolio/kiddiebox.jpeg";
 
 const Portfolio = () => {
   const portfolios = [
+    // https://www.getkiddiebox.com/
     {
       id: 1,
+      src: Kiddiebox,
+      href: "https://www.getkiddiebox.com/",
+    },
+    {
+      id: 2,
       src: PropertyInvest,
       href: "https://propertyinvestblog.com",
     },
     {
-      id: 2,
+      id: 3,
       src: Konnected,
       href: "https://withkonnected.com/",
     },
     {
-      id: 3,
+      id: 4,
       src: Birdiebox,
       href: "https://birdiebox.ai/",
     },
     {
-      id: 4,
+      id: 5,
       src: LolaPortfolio,
       href: "https://lolataiwo.live/",
     },
     {
-      id: 5,
+      id: 6,
       src: EniolaPortfolio,
       href: "https://www.eniolabiola.com/",
     },
     {
-      id: 6,
+      id: 7,
       src: Trailerpoint,
       href: "https://trailerpoint.netlify.app",
       code: "https://github.com/UncleSims/TrailerPoint",
     },
     {
-      id: 7,
+      id: 8,
       src: FitnessJunkie,
       href: "https://fitnessjunkie.netlify.app/",
       code: "https://github.com/UncleSims/gym-project",
