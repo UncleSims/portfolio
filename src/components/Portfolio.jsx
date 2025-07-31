@@ -21,8 +21,15 @@ const Portfolio = () => {
       src: SecondsBlog,
       href: "https://blog.secondsapp.io/",
     },
+
     {
       id: 3,
+      src: LolaPortfolio,
+      href: "https://lolataiwo.live/",
+    },
+
+    {
+      id: 4,
       src: Kiddiebox,
       href: "https://www.getkiddiebox.com/",
     },
@@ -33,19 +40,21 @@ const Portfolio = () => {
     // },
     {
       id: 5,
+      src: Trailerpoint,
+      href: "https://trailerpoint.netlify.app",
+      code: "https://github.com/UncleSims/TrailerPoint",
+    },
+    {
+      id: 6,
       src: Konnected,
       href: "https://withkonnected.com/",
     },
     {
-      id: 6,
+      id: 7,
       src: Birdiebox,
       href: "https://birdiebox.ai/",
     },
-    {
-      id: 7,
-      src: LolaPortfolio,
-      href: "https://lolataiwo.live/",
-    },
+
     {
       id: 8,
       src: EniolaPortfolio,
@@ -53,12 +62,6 @@ const Portfolio = () => {
     },
     {
       id: 9,
-      src: Trailerpoint,
-      href: "https://trailerpoint.netlify.app",
-      code: "https://github.com/UncleSims/TrailerPoint",
-    },
-    {
-      id: 10,
       src: FitnessJunkie,
       href: "https://fitnessjunkie.netlify.app/",
       code: "https://github.com/UncleSims/gym-project",

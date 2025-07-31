@@ -1,5 +1,5 @@
 import { useState } from "react";
-import MobileSocials from "./MobileSocials";
+
 const Contact = () => {
   const [email, setEmail] = useState("");
   return (
