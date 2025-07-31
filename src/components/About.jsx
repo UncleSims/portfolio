@@ -8,8 +8,8 @@ const About = () => {
     >
       <div className="max-w-screen-lg py-[150px] lg:mx-auto flex flex-col justify-center w-full h-full">
         <div className="w-full mb-6">
-          <div className="w-full pb-4 ">
-            <span className="text-xl md:text-3xl font-bold inline border-b-4 border-gray-500">
+          <div className="w-full  pb-4 ">
+            <span className="ml-10 xl:ml-0 text-xl md:text-3xl font-bold inline border-b-4 border-gray-500">
               About
             </span>
             <div className="flex mt-6 justify-center transiton duration-700 ease-in md:hidden">
@@ -24,7 +24,7 @@ const About = () => {
             </div>
           </div>
           <p
-            className="text-base md:text-lg mt-4 text-gray-400"
+            className="px-10 xl:px-0 text-base md:text-lg mt-4 text-gray-400"
             data-aos="fade-up"
           >
             I am currently based in Abuja, Nigeria and working remotely. My
@@ -36,7 +36,10 @@ const About = () => {
             personally and professionally.
           </p>
           <br />
-          <p className="text-base md:text-lg text-gray-400" data-aos="fade-up">
+          <p
+            className="px-10 xl:px-0 text-base md:text-lg text-gray-400"
+            data-aos="fade-up"
+          >
             When I am not writing code, you can often find me at the gym in the
             evenings or catch me seeing my favourite shows on Netflix. I do my
             best to make out time to spend with my family and loved ones because

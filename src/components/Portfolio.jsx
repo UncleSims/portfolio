@@ -71,7 +71,7 @@ const Portfolio = () => {
     >
       <section className="max-w-screen-lg mx-auto">
         <div className=" flex flex-col h-full justify-center py-[100px]">
-          <div className="mx-5 pb-5 md:pb-8">
+          <div className="mx-10 xl:mx-0 pb-5 md:pb-8">
             <span className="text-xl md:text-3xl font-bold border-b-4 border-gray-500">
               Portfolio
             </span>

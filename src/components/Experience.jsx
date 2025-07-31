@@ -64,7 +64,7 @@ const Experience = () => {
       className="bg-gradient-to-b from-gray-800 to-black w-full min-h-screen"
     >
       <section className="max-w-screen-lg mx-auto py-[100px] flex flex-col justify-center w-full text-white">
-        <div className="mt-4">
+        <div className="mt-4 mx-10 xl:mx-0">
           <span className="text-xl md:text-3xl font-bold border-b-4 border-gray-500 inline">
             Experience
           </span>

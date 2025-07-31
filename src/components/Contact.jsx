@@ -7,7 +7,7 @@ const Contact = () => {
       name="contact"
       className="w-full min-h-screen bg-gradient-to-b from-black to-gray-700 p-4 text-white"
     >
-      <section className="flex flex-col px-4 py-[100px] justify-center max-w-screen-lg mx-auto">
+      <section className="flex flex-col px-10 xl:px-4 py-[100px] justify-center max-w-screen-lg mx-auto">
         <div className="pb-8" data-aos="zoom-out-up">
           <span className="text-xl md:text-3xl font-bold inline border-b-4 border-gray-500 ">
             Contact
